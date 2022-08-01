@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survival horror</title>
+    <link rel="icon" href="../image/logo.png">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/baomat.css">
+    <link rel="stylesheet" href="../css/buy.css">
+</head>
+<body>
+    <div id="Menu" >
+        <a href="./index.html">
+            <img src="../image/lôlo.jpg" alt="" id="img1">
+           </a>
+        <a href="../index.html" class="info">Trang chủ </a>
+        &ensp;
+        &ensp;
+        <a href="../html/Khuyenmai.html" class="info">Sản Phẩm</a>
+        &ensp;
+        &ensp;
+        <a href="../html/Dangnhap.html"class="info">Đăng nhập</a>
+        <img src="../image/phone_PNG463.png" alt="Phone" id="img2"> 
+        <p id="in4">
+            <strong>
+            Đặt hàng nhanh: <br>
+            0123456789JQK <br> 
+        </strong>
+          </p>
+    </div>
+    <div id="cl" >
+        <div id="cl1">
+            <li>Sản phẩm</li>
+            <hr>
+            <div id="sp">
+                <img src="../image/o1.jpg" alt="">
+                <li class="li">Survival horror</li>
+            </div>
+        </div>
+        <div id="cl2">
+            <li>Giá</li>
+            <hr>
+            <li class="li">188.000VNĐ</li>
+        </div>
+        <div id="cl3">
+            <li>Số lượng</li>
+            <hr>
+            <input type="number" name="" id="sl" value="1" class="in" min="1" onclick="gia()">
+        </div>
+        <div id="cl4">
+            <li>Tổng cộng</li>
+            <hr>
+            <li class="li" id="price">188.000VNĐ</li>
+        </div>
+    </div>
+    <div id="button">     
+       <hr>
+       <li>Tổng tiền tạm tính: &ensp; <strong id="sum">188.000VNĐ</strong>	</li>
+       <hr>
+       <input type="text" name="" id="gg" placeholder="Mã Giảm Giá">
+        <a href="../index.html"><input id="thanhtoan" type="button" value="Thanh toán"></a>
+    </div>
+    <div id="Footerr">
+        <footer> 
+                <img src="../image/dd.jpg" alt="" >
+                <div class="column-left">
+                    <h3>Thông tin cần biết:</h3>
+                    <li><a href="./html/Thanhtoan.html">Chính sách thanh toán </a></li>
+                    <li><a href="./html/Giaohang.html">Chính sách giao hàng</a></li>
+                    <li><a href="./Baomat.html">Chính sách bảo mật</a></li>
+                    <li><a href="https://www.facebook.com/trollgamecom">Cộng đồng</a></li>
+                </div>
+                <div class="column-center">
+                    <h3>Hệ Thống cửa hàng:</h3>
+                    <li> <strong>Divine Shop</strong> <br>
+                        LIÊN HỆ
+                        Hotline 1900 633 305<br>
+                        (Các ngày trong tuần từ 8h đến 24h)<br>
+                        Email hỗ trợ: hotro@divineshop.vn<br>
+                        Địa chỉ giao dịch trực tiếp<br>
+                        Fanpage CSKH<br></li>
+                </div>
+        </footer>
+    </div>
+    <script>
+        function gia(){
+        var sl,price;
+        sl = document.getElementById("sl").value;
+        price = 188.000*sl;
+        var nf = new Intl.NumberFormat();
+        tien = nf.format(price);
+        document.getElementById("price").innerHTML = tien + ".000 VNĐ";
+        document.getElementById("sum").innerHTML = document.getElementById("price").innerHTML;
+        }
+        
+    </script>
+</body>
+</html>

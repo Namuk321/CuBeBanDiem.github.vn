@@ -1,0 +1,89 @@
+#cl{
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+}
+#cl1{
+    border-radius: 10px 0px 0px 10px;
+    text-align: center;
+    float: left;
+    width: 39%;
+    height: 120px;
+    background-color: white;
+    border-right: 1px solid black;
+}
+#cl2{
+    text-align: center;
+    float: left;
+    width: 20%;
+    height: 120px;
+    background-color: white;
+    border-right: 1px solid black;
+}
+#cl3{
+    text-align: center;
+    float: left;
+    width: 20%;
+    height: 120px;
+    background-color: white;
+    border-right: 1px solid black;
+}
+#cl3>input{
+    border-radius: 5px;
+}
+#cl4{
+    border-radius: 0px 10px 10px 0px;
+    text-align: center;
+    float: left;
+    width: 20%;
+    height: 120px;
+    background-color: white;
+}
+#sp>img{
+    float: left;
+    width: 69%;
+    border-radius: 32px;
+    height: 166px;
+    top: -18px;
+    position: relative;
+}
+.li{
+    position: relative;
+        top: 20px;
+}
+.in{
+    position: relative;
+        top: 20px;
+}
+hr{
+    width: 0%;
+    border: 1px solid rgb(163, 163, 163);
+}
+#cl3>input{
+    width: 20%;
+}
+#button{
+    margin: auto;
+    clear: both;
+    width: 95%;
+    text-align: right;
+    font-size: 20px;
+}
+#button>a>#thanhtoan{
+    background-color:rgb(73, 73, 73);
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    font-weight: 800 ;
+    color: white;
+    
+}
+#button>a>#thanhtoan:hover{
+    background-color: rgb(105, 105, 103);
+    
+}
+#gg{
+    border-radius: 5px;
+    width: 150px;
+    height: 20px;
+}

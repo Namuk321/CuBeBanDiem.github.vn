@@ -1,0 +1,49 @@
+#Content h3{
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    background-color: aquamarine;
+    border-radius: 30px;
+}
+#Content h2{
+    text-align: center;
+    width: 93%;
+    height: 30px;
+    background-color: aquamarine;
+    border-radius: 30px;
+    position: relative;
+    left: 50px;
+}
+#Content{
+    margin-top: 5px;
+    height: auto;
+    width: 70%;
+    background-color: rgb(253, 253, 253);
+    float: left;
+}
+#add{
+    margin-top: 5px;
+    height: 100px;
+    width: 130%;
+    background-color: rgb(253, 253, 253);
+    float: left;
+    margin-left: 20px;
+    
+}
+#Footer{
+   clear: both;
+    
+}
+footer img{
+    position: relative;
+    left: 40px;
+}
+#sale{
+    position: relative;
+    top: -220px;
+    left: 120px;
+    width: 50px;
+}
+del{
+    color: red;
+}

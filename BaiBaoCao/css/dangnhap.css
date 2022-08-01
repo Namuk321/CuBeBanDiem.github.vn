@@ -1,0 +1,64 @@
+#Center{
+  width: 500px;
+  height: 500px;
+  background-color: rgb(216, 225, 228);
+  position: absolute;
+      top: 30%;
+      left: 35%;
+  border-radius: 5px;
+}
+#Center>div{
+  position: relative;
+      left: 120px;
+      top: auto;
+  margin: 2px;
+  
+}
+h1{
+  text-align: center;
+}
+h3{
+  text-align: left;
+  position: relative;
+      left: 60px;
+}
+#Center>div>input{
+  width: 250px;
+  height: 25px;
+  border-radius: 5px;
+}
+#Center>div>input:hover{
+  background-color: aquamarine;
+}
+img{
+  width: 50px;
+}
+#Center>#login>a>button{
+  border-radius: 5px;
+  transition: 1s;
+}
+#Center>#login>a>button:hover{
+  transform: scale(1.1);
+  background-color: rgb(205, 209, 212);
+}
+.log{
+  height: 30px;
+}
+body{
+  background-color: rgb(120, 124, 124);
+}
+#loginn>a{
+      position: relative;
+      left: 80px;
+}
+#loginn>a>button{
+  background-color: aquamarine;
+  margin-top: 10px;
+  width: 100px;
+  border-radius: 5px;
+  transition: 1s;
+}
+#loginn>a>button:hover{
+  transform: scale(1.1);
+  background-color: rgb(205, 209, 212);
+}
